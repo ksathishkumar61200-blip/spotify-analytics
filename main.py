@@ -7,8 +7,8 @@ import mysql.connector
 # ─────────────────────────────────────────
 # 1. Spotify Credentials
 # ─────────────────────────────────────────
-CLIENT_ID     = '92dbfca2af99410da738deae2432839d'
-CLIENT_SECRET = '63b18cb42fc844c5b0c078020081bb3c'
+CLIENT_ID     = 'your client id'
+CLIENT_SECRET = 'your client secret'
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyClientCredentials(
@@ -24,7 +24,7 @@ sp = spotipy.Spotify(
 connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Sathish@2004",
+    password="yourpassword",
     database="spotify_db"
 )
 cursor = connection.cursor()
