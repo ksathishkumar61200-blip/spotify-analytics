@@ -23,6 +23,8 @@ python main.py
 📊 Dashboard Preview
 
 📊 Dashboard Insights
+<img width="1147" height="636" alt="image" src="https://github.com/user-attachments/assets/b2a8e961-d8d6-4a5e-abd4-b6e6167a7fdb" />
+
 🎵 300 Total Tracks collected
 🎤 188 Artists analyzed
 💿 206 Albums covered
